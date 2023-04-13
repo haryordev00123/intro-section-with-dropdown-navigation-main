@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <!-- mobile-header -->
+<header id="mobile-header">
+  <img src="./images/logo.svg" alt="logo">
+  <img id="bars" onclick="openNav()"  src="./images/icon-menu.svg">
+</header>
+<nav id="mobile-side-nav">
+  <img id="close-bar" onclick="closeNav()" src="./images/icon-close-menu.svg">
+  <ul id="links-container" class="links-container">
+    <li class="drop-down">
+      <p class="drop-btn">Features</p>
+        <ul class="drop-content">
+          <li>
+            <a href="#"><img src="./images/icon-todo.svg">Todo List</a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/icon-calendar.svg">Calendar</a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/icon-reminders.svg">Reminders</a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/icon-planning.svg">Planning</a>
+          </li>
+        </ul>
+    </li>
+    <!-- second drop-list -->
+    <li class="drop-down">
+      <p class="drop-btn">Company</p>
+        <ul class="drop-content">
+          <li>
+            <a href="#">History</a>
+          </li>
+          <li>
+            <a href="#">Our Team</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+    </li>
+    <li><a href="#">Careers</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+  <div id="mobile-cta-btn">
+    <button id="login">Login</button>
+    <button id="register">Register</button>
+  </div>
+</nav>
+
+<!-- desktop-header -->
+<header id="desktop-header">
+  <div id="nav-container">
+    <img class="logo" src="./images/logo.svg" alt="logo">
+    <nav>
+      <ul id="desktop-links-container" class="links-container">
+      <li class="drop-down">
+      <p class="drop-btn">Features</p>
+        <ul class="drop-content content1">
+          <li>
+            <a href="#"><img src="./images/icon-todo.svg">Todo List</a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/icon-calendar.svg">Calendar</a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/icon-reminders.svg">Reminders</a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/icon-planning.svg">Planning</a>
+          </li>
+        </ul>
+    </li>
+    <!-- second drop-list -->
+        <li class="drop-down">
+          <p class="drop-btn">Company</p>
+          <ul class="drop-content content2">
+            <li>
+              <a href="#">History</a>
+            </li>
+            <li>
+              <a href="#">Our Team</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+        </ul>
+        </li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="desktop-cta-btn">
+    <button id="login">Login</button>
+    <button id="register">Register</button>
+  </div>
+</header>
+
+<!-- Hero section  -->
+<section id="wrapper">
+  <div class="img-container">
+  <img src="./images/image-hero-mobile.png" alt="">
+  </div>
+  <section id="main-content">
+    <h2 id="desktop-main-title">Make <br> remote work</h2>
+    <h2 id="mobile-main-title">Make remote work</h2>
+    <p>Get your team in sync, no matter your location. Streamline processes, 
+      create team rituals, and watch productivity soar.</p>
+      <button>Learn More</button>
+      <div class="bottom-logos">
+         <img src="./images/client-databiz.svg" alt="client-databiz">
+         <img src="./images/client-audiophile.svg" alt="client-audiophile">
+         <img  src="./images/client-meet.svg" alt="client-meet">
+         <img src="./images/client-maker.svg" alt="client-maker">
+        </div>
+  </section>
+</section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#" style="color: black; text-decoration: underline">HaryorDev</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
