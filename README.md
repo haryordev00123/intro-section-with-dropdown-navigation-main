@@ -1,25 +1,9 @@
-# Frontend Mentor - Order summary card solution
+# intro-section-with-dropdown-navigation-main
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
-
-## Overview
-
-### The challenge
-
-Users are able to:
-
-- See hover states for interactive elements
-
-### Screenshot
-
-![](images/Screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
 
 ### Built with
 
@@ -67,5 +51,5 @@ const favoriteFunc = (name) => {
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@haryordev](https://www.frontendmentor.io/profile/haryordev00123)
+- Twitter - [@haryordev00123](https://www.twitter.com/haryordev)
