@@ -83,7 +83,7 @@ a{
     content: "";
     width: 10px;
     height: 6px;
-    background-image:url("./images/icon-arrow-down.svg");
+    background-image:url("icon-arrow-down.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ a{
 }
   
   .drop-down .drop-btn.active:after{
-    background-image:url("./images/icon-arrow-up.svg");
+    background-image:url("icon-arrow-up.svg");
   }
 
 .drop-down p.drop-btn img{
@@ -358,7 +358,7 @@ a{
       width: 100%;
       height: 100%;
     }
-    
+     
     #wrapper #main-content{
       flex-basis: 46%;
       padding:0;
